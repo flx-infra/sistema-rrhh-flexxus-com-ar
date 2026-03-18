@@ -2,7 +2,7 @@ version: '3.6'
 
 services:
   sistema_rrhh_demo:
-    image: fabreguesm/sistema_rrhh:1.0.4                                                                                                     
+    image: fabreguesm/sistema_rrhh:1.0.5                                                                                                     
     deploy:
       placement:
         constraints: ["${NODE}"]
